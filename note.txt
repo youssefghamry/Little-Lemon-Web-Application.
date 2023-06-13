@@ -1,0 +1,18 @@
+User and Role
+1. Admin: username=admin, password=adminpassword
+2. Manager: username=manager, password=managerpassword
+3. delivery crew 1: username=delivery1, password=delivery1password
+4. delivery crew 2: username=delivery2, password=delivery2password
+5. customer 1: username=cust1, password=cust1password
+6. customer 2: username=cust2, password=cust2password
+
+Filtering, Ordering, Searching, paginaton
+to do filtering, ordering, searching and paginations, do this on API endpoints.
+for examples:
+/api/menu-items/?category=Main
+/api/menu-items/?max_price=7.5
+/api/menu-items/?ordering=category,price
+/api/menu-items/?perpage=3&page=1
+/api/orders/?menuitem=Beef Pasta
+etc.
+
